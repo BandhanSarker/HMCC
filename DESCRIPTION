@@ -1,0 +1,20 @@
+Package: HMCC
+Type: Package
+Title: A hybrid model for classifying cancer phenotype 
+Version: 0.1.0
+Authors@R: c(person("Bandhan", "Sarker",email="bandhansarker252@gmail.com", role=c("aut", "cre","cph")),person("Md. Matiur","Rahaman",email= "matiur.stat@gmail.com",role=c("aut","cph")),person("Muhammad Habibulla","Alamin",role="ctb"))
+Maintainer: Bandhan Sarker<bandhansarker252@gmail.com>
+Description: This package is used to identify key genes for cancer phenotype classification.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Imports: 
+    e1071,
+    limma,
+    randomForest,
+    RColorBrewer,
+    samr,
+    stats
+Depends: 
+    R (>= 3.5)
