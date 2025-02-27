@@ -58,6 +58,6 @@ table(predict = pred.rf, actual =DataLabels)
 ```
  
 ## Author(s): 
-Md. Matiur Rahaman, Bandhan Sarker, Muhammad Habibulla Alamin, and Farzana Ferdous
+Md. Matiur Rahaman, Bandhan Sarker, Muhammad Habibulla Alamin, and Farzana Ferdousi
 
 ## References
