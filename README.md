@@ -30,7 +30,9 @@ GS(Data,n_groups, DE_ANOVA = TRUE, DE_KW = TRUE,DE_Ttest = TRUE, DE_Sam = TRUE, 
 * **N_top** Number of significant features/genes selection by default 15
  
 ## Value 
-Top significant features/genes matrix## Examples
+Top significant features/genes matrix
+
+## Examples
 ```r
 top.df<-HMCC::GS(bladder,n_groups =c(3,9))
 col <- colorRampPalette(c("green", "black", "red"))(100)
